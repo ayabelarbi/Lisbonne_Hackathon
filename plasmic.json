@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "files",
@@ -133,6 +133,97 @@
           "name": "Fetcher",
           "componentImportPath": "@plasmicapp/data-sources"
         }
+      ],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "6WhsUfJBtetLYiFQ7oq2JD",
+      "projectApiToken": "TC9NsxuDJ2irKPfxG9yfDBA6JXMKsJcaW5cJCENFVrC3Tb5JFHZp8kZrqTJrPTfc0aMTeEZObdYT1fewXsw",
+      "projectName": "Blank project",
+      "version": "latest",
+      "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
+      "components": [
+        {
+          "id": "iAsXuAT5kwWE",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "6WhsUfJBtetLYiFQ7oq2JD",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "Homepage.jsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "TVBO8o15ir",
+          "name": "Rectangle756Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Rectangle756.jsx"
+        },
+        {
+          "id": "M8jNwnU2Ht",
+          "name": "Polygon1Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Polygon1.jsx"
+        },
+        {
+          "id": "yqp6eBOHPA",
+          "name": "Polygon3Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Polygon3.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "X8grWpz5o",
+          "name": "Rectangle 766",
+          "filePath": "plasmic/blank_project/images/rectangle766.png"
+        },
+        {
+          "id": "X1ScGMA07G",
+          "name": "Rectangle 769",
+          "filePath": "plasmic/blank_project/images/rectangle769.png"
+        },
+        {
+          "id": "tm8hEQW3GV",
+          "name": "Rectangle 771",
+          "filePath": "plasmic/blank_project/images/rectangle771.png"
+        },
+        {
+          "id": "dZR_ncWM-N",
+          "name": "Rectangle 772",
+          "filePath": "plasmic/blank_project/images/rectangle772.png"
+        },
+        {
+          "id": "tPXvoyvLsT",
+          "name": "Rectangle 770",
+          "filePath": "plasmic/blank_project/images/rectangle770.png"
+        },
+        {
+          "id": "2FtFP7NoRX",
+          "name": "Rectangle 768",
+          "filePath": "plasmic/blank_project/images/rectangle768.png"
+        },
+        {
+          "id": "PJvucDOPGe",
+          "name": "Rectangle 760",
+          "filePath": "plasmic/blank_project/images/rectangle760.svg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "2Vr5GZtg4a",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "74ldK6VA6_",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/data-sources"
+        }
       ]
     }
   ],
@@ -142,6 +233,12 @@
         "id": "ARveYtbqgK5j7",
         "name": "Screen",
         "projectId": "cUjXZ2wVzGNFa4cDmDxyEu",
+        "contextFilePath": "plasmic/blank_project/PlasmicGlobalVariant__Screen.jsx"
+      },
+      {
+        "id": "vS1BTMqeRVtDB",
+        "name": "Screen",
+        "projectId": "6WhsUfJBtetLYiFQ7oq2JD",
         "contextFilePath": "plasmic/blank_project/PlasmicGlobalVariant__Screen.jsx"
       }
     ]
