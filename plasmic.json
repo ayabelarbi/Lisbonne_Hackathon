@@ -24,7 +24,7 @@
     {
       "projectId": "cUjXZ2wVzGNFa4cDmDxyEu",
       "projectApiToken": "rFxJbE1hAMiyWpE1xlY6cTc9pENa5dogt5vtZQgYO6BsbhqiSnB8p4JXmsiKdpEYsvspSp1X6kcFflEOQ",
-      "projectName": "Blank project",
+      "projectName": "CircularMerch",
       "version": "latest",
       "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
       "components": [
@@ -40,20 +40,6 @@
           "cssFilePath": "plasmic/blank_project/PlasmicHomePage.module.css",
           "scheme": "blackbox",
           "componentType": "page"
-        },
-        {
-          "id": "jGNQ9KCLA4-",
-          "name": "Button",
-          "type": "managed",
-          "projectId": "cUjXZ2wVzGNFa4cDmDxyEu",
-          "renderModuleFilePath": "plasmic/blank_project/PlasmicButton.jsx",
-          "importSpec": {
-            "modulePath": "Button.jsx"
-          },
-          "cssFilePath": "plasmic/blank_project/PlasmicButton.module.css",
-          "scheme": "blackbox",
-          "componentType": "component",
-          "plumeType": "button"
         }
       ],
       "icons": [
@@ -133,8 +119,7 @@
           "name": "Fetcher",
           "componentImportPath": "@plasmicapp/data-sources"
         }
-      ],
-      "jsBundleThemes": []
+      ]
     },
     {
       "projectId": "6WhsUfJBtetLYiFQ7oq2JD",
@@ -224,7 +209,8 @@
           "name": "Fetcher",
           "componentImportPath": "@plasmicapp/data-sources"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     }
   ],
   "globalVariants": {
