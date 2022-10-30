@@ -24,7 +24,7 @@
     {
       "projectId": "cUjXZ2wVzGNFa4cDmDxyEu",
       "projectApiToken": "rFxJbE1hAMiyWpE1xlY6cTc9pENa5dogt5vtZQgYO6BsbhqiSnB8p4JXmsiKdpEYsvspSp1X6kcFflEOQ",
-      "projectName": "CircularMerch",
+      "projectName": "Alter Merch",
       "version": "latest",
       "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
       "components": [
@@ -38,6 +38,46 @@
             "modulePath": "HomePage.jsx"
           },
           "cssFilePath": "plasmic/blank_project/PlasmicHomePage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "OGHD-f0niF",
+          "name": "NewPage",
+          "type": "managed",
+          "projectId": "cUjXZ2wVzGNFa4cDmDxyEu",
+          "renderModuleFilePath": "plasmic/alter_merch/PlasmicNewPage.jsx",
+          "importSpec": {
+            "modulePath": "NewPage.jsx"
+          },
+          "cssFilePath": "plasmic/alter_merch/PlasmicNewPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "MB4uDn9qI2c",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "cUjXZ2wVzGNFa4cDmDxyEu",
+          "renderModuleFilePath": "plasmic/alter_merch/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/alter_merch/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "0nT3iDQxEs",
+          "name": "TeeShirt",
+          "type": "managed",
+          "projectId": "cUjXZ2wVzGNFa4cDmDxyEu",
+          "renderModuleFilePath": "plasmic/alter_merch/PlasmicTeeShirt.jsx",
+          "importSpec": {
+            "modulePath": "TeeShirt.jsx"
+          },
+          "cssFilePath": "plasmic/alter_merch/PlasmicTeeShirt.module.css",
           "scheme": "blackbox",
           "componentType": "page"
         }
@@ -67,6 +107,111 @@
           "id": "c0VfpELCV6T",
           "name": "IconIcon",
           "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Icon.jsx"
+        },
+        {
+          "id": "03Wlh5nS_0Wr",
+          "name": "BarsIcon",
+          "moduleFilePath": "plasmic/alter_merch/icons/PlasmicIcon__Bars.jsx"
+        },
+        {
+          "id": "aXjgTNl-B7L_",
+          "name": "TimesIcon",
+          "moduleFilePath": "plasmic/alter_merch/icons/PlasmicIcon__Times.jsx"
+        },
+        {
+          "id": "Zp8c-8dG_Awu",
+          "name": "Logo4SvgIcon",
+          "moduleFilePath": "plasmic/alter_merch/icons/PlasmicIcon__Logo4Svg.jsx"
+        },
+        {
+          "id": "HcYJNw-Og0IY",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/alter_merch/icons/PlasmicIcon__Icon2.jsx"
+        },
+        {
+          "id": "DZ62nWMsdioT",
+          "name": "ShoppingCartIcon",
+          "moduleFilePath": "plasmic/alter_merch/icons/PlasmicIcon__ShoppingCart.jsx"
+        },
+        {
+          "id": "TWvFWym1LWWZ",
+          "name": "HeartOIcon",
+          "moduleFilePath": "plasmic/alter_merch/icons/PlasmicIcon__HeartO.jsx"
+        },
+        {
+          "id": "4I8pZA-IbpSv",
+          "name": "ExpandIcon",
+          "moduleFilePath": "plasmic/alter_merch/icons/PlasmicIcon__Expand.jsx"
+        },
+        {
+          "id": "_c2KsjKtcJ37",
+          "name": "StarIcon",
+          "moduleFilePath": "plasmic/alter_merch/icons/PlasmicIcon__Star.jsx"
+        },
+        {
+          "id": "L_x_BwOsx9",
+          "name": "ButtonArrowIcon",
+          "moduleFilePath": "plasmic/alter_merch/icons/PlasmicIcon__ButtonArrow.jsx"
+        },
+        {
+          "id": "oRSSUDl3LE",
+          "name": "LogoWhitesvgIcon",
+          "moduleFilePath": "plasmic/alter_merch/icons/PlasmicIcon__LogoWhitesvg.jsx"
+        },
+        {
+          "id": "kvjA26nOsE",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/alter_merch/icons/PlasmicIcon__Icon3.jsx"
+        },
+        {
+          "id": "huGsVH6FQYW",
+          "name": "Icon4Icon",
+          "moduleFilePath": "plasmic/alter_merch/icons/PlasmicIcon__Icon4.jsx"
+        },
+        {
+          "id": "p2_rCxr4X",
+          "name": "Rectangle777Icon",
+          "moduleFilePath": "plasmic/alter_merch/icons/PlasmicIcon__Rectangle777.jsx"
+        },
+        {
+          "id": "SKFpoUgscz",
+          "name": "Rectangle776Icon",
+          "moduleFilePath": "plasmic/alter_merch/icons/PlasmicIcon__Rectangle776.jsx"
+        },
+        {
+          "id": "1vXacDibtE",
+          "name": "VectorIcon",
+          "moduleFilePath": "plasmic/alter_merch/icons/PlasmicIcon__Vector.jsx"
+        },
+        {
+          "id": "HqKfSPVKlo",
+          "name": "Line1Icon",
+          "moduleFilePath": "plasmic/alter_merch/icons/PlasmicIcon__Line1.jsx"
+        },
+        {
+          "id": "QBKfeanqw",
+          "name": "Line2Icon",
+          "moduleFilePath": "plasmic/alter_merch/icons/PlasmicIcon__Line2.jsx"
+        },
+        {
+          "id": "WUUhNyK1Dm",
+          "name": "Line5Icon",
+          "moduleFilePath": "plasmic/alter_merch/icons/PlasmicIcon__Line5.jsx"
+        },
+        {
+          "id": "tE77GgzU8",
+          "name": "Vector2Icon",
+          "moduleFilePath": "plasmic/alter_merch/icons/PlasmicIcon__Vector2.jsx"
+        },
+        {
+          "id": "5MN3PrFIVb",
+          "name": "Line6Icon",
+          "moduleFilePath": "plasmic/alter_merch/icons/PlasmicIcon__Line6.jsx"
+        },
+        {
+          "id": "J_Xexu3zfu",
+          "name": "Line7Icon",
+          "moduleFilePath": "plasmic/alter_merch/icons/PlasmicIcon__Line7.jsx"
         }
       ],
       "images": [
@@ -104,6 +249,161 @@
           "id": "hLrQHZjX0s",
           "name": "Rectangle 760",
           "filePath": "plasmic/blank_project/images/rectangle760.svg"
+        },
+        {
+          "id": "XNN7_t7bKilX",
+          "name": "image",
+          "filePath": "plasmic/alter_merch/images/image.jpeg"
+        },
+        {
+          "id": "zt7GB5T5O9Ll",
+          "name": "image 2",
+          "filePath": "plasmic/alter_merch/images/image2.jpeg"
+        },
+        {
+          "id": "G8l0gwvayKUu",
+          "name": "image 3",
+          "filePath": "plasmic/alter_merch/images/image3.jpeg"
+        },
+        {
+          "id": "JMu4Hw7wB93Z",
+          "name": "image 4",
+          "filePath": "plasmic/alter_merch/images/image4.jpeg"
+        },
+        {
+          "id": "jGwJRaQ-s2OO",
+          "name": "image 5",
+          "filePath": "plasmic/alter_merch/images/image5.jpeg"
+        },
+        {
+          "id": "WvQCVjjRp6qM",
+          "name": "image 6",
+          "filePath": "plasmic/alter_merch/images/image6.jpeg"
+        },
+        {
+          "id": "ICLSlR7sl3i9",
+          "name": "image 7",
+          "filePath": "plasmic/alter_merch/images/image7.jpeg"
+        },
+        {
+          "id": "RTd0Tfa8RXTc",
+          "name": "image 8",
+          "filePath": "plasmic/alter_merch/images/image8.jpeg"
+        },
+        {
+          "id": "qohGUrgAw",
+          "name": "image 9",
+          "filePath": "plasmic/alter_merch/images/image9.jpeg"
+        },
+        {
+          "id": "fyfViLamvU",
+          "name": "image 10",
+          "filePath": "plasmic/alter_merch/images/image10.jpeg"
+        },
+        {
+          "id": "FlJTcqYc70",
+          "name": "image 11",
+          "filePath": "plasmic/alter_merch/images/image11.jpeg"
+        },
+        {
+          "id": "X2ldiZ4UPd",
+          "name": "image 12",
+          "filePath": "plasmic/alter_merch/images/image12.jpeg"
+        },
+        {
+          "id": "2LnjU09Oqz",
+          "name": "image 13",
+          "filePath": "plasmic/alter_merch/images/image13.png"
+        },
+        {
+          "id": "WQDrUE6MPB",
+          "name": "image 14",
+          "filePath": "plasmic/alter_merch/images/image14.png"
+        },
+        {
+          "id": "Wgn8kN8sQy",
+          "name": "image 15",
+          "filePath": "plasmic/alter_merch/images/image15.png"
+        },
+        {
+          "id": "KU3h6DO_yo",
+          "name": "image 16",
+          "filePath": "plasmic/alter_merch/images/image16.png"
+        },
+        {
+          "id": "eAaEL7PNfB",
+          "name": "image 17",
+          "filePath": "plasmic/alter_merch/images/image17.png"
+        },
+        {
+          "id": "I1nfDvr7Zd",
+          "name": "image 18",
+          "filePath": "plasmic/alter_merch/images/image18.webp"
+        },
+        {
+          "id": "WvYJtnCnup",
+          "name": "image 19",
+          "filePath": "plasmic/alter_merch/images/image19.svg"
+        },
+        {
+          "id": "cBUYD3knQz",
+          "name": "image 20",
+          "filePath": "plasmic/alter_merch/images/image20.png"
+        },
+        {
+          "id": "tLTOX4d6wz",
+          "name": "image 21",
+          "filePath": "plasmic/alter_merch/images/image21.png"
+        },
+        {
+          "id": "ZVqasVy7kRE",
+          "name": "image 22",
+          "filePath": "plasmic/alter_merch/images/image22.png"
+        },
+        {
+          "id": "JxH_Z3jr21j",
+          "name": "image 23",
+          "filePath": "plasmic/alter_merch/images/image23.png"
+        },
+        {
+          "id": "to0-2M6KEh8",
+          "name": "image 24",
+          "filePath": "plasmic/alter_merch/images/image24.webp"
+        },
+        {
+          "id": "Jt3BOGYJb3y",
+          "name": "image 25",
+          "filePath": "plasmic/alter_merch/images/image25.png"
+        },
+        {
+          "id": "e2LAD-kEqEA",
+          "name": "image 26",
+          "filePath": "plasmic/alter_merch/images/image26.png"
+        },
+        {
+          "id": "EQwinQTaiWo",
+          "name": "image 27",
+          "filePath": "plasmic/alter_merch/images/image27.webp"
+        },
+        {
+          "id": "5VU_JSrHMIq",
+          "name": "image 28",
+          "filePath": "plasmic/alter_merch/images/image28.png"
+        },
+        {
+          "id": "wuYNqT_kLT-",
+          "name": "image 29",
+          "filePath": "plasmic/alter_merch/images/image29.png"
+        },
+        {
+          "id": "m3G2KkCwz5j",
+          "name": "image 30",
+          "filePath": "plasmic/alter_merch/images/image30.png"
+        },
+        {
+          "id": "N6vclwbfqZt",
+          "name": "image 31",
+          "filePath": "plasmic/alter_merch/images/image31.png"
         }
       ],
       "indirect": false,
