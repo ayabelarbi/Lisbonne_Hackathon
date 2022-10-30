@@ -455,6 +455,15 @@
   top: 368px;
   left: 513px;
 }
+.rectangle768 {
+  background: url("./images/rectangle768.png") center center / cover no-repeat;
+  width: 318px;
+  height: 259px;
+  display: block;
+  position: absolute;
+  top: 370px;
+  left: 913px;
+}
 ._10SmallAave {
   position: absolute;
   top: 657px;

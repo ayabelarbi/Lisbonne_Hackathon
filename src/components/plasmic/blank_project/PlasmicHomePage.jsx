@@ -360,6 +360,12 @@ function PlasmicHomePage__RenderFunc(props) {
             />
 
             <div
+              data-plasmic-name={"rectangle768"}
+              data-plasmic-override={overrides.rectangle768}
+              className={classNames(projectcss.all, sty.rectangle768)}
+            />
+
+            <div
               data-plasmic-name={"_10SmallAave"}
               data-plasmic-override={overrides._10SmallAave}
               className={classNames(projectcss.all, sty._10SmallAave)}
@@ -493,6 +499,7 @@ const PlasmicDescendants = {
     "rectangle771",
     "rectangle772",
     "rectangle770",
+    "rectangle768",
     "_10SmallAave",
     "_7XSmallTheGraph",
     "_10SmallPolygon",
@@ -516,6 +523,7 @@ const PlasmicDescendants = {
     "rectangle771",
     "rectangle772",
     "rectangle770",
+    "rectangle768",
     "_10SmallAave",
     "_7XSmallTheGraph",
     "_10SmallPolygon",
@@ -537,6 +545,7 @@ const PlasmicDescendants = {
   rectangle771: ["rectangle771"],
   rectangle772: ["rectangle772"],
   rectangle770: ["rectangle770"],
+  rectangle768: ["rectangle768"],
   _10SmallAave: ["_10SmallAave"],
   _7XSmallTheGraph: ["_7XSmallTheGraph"],
   _10SmallPolygon: ["_10SmallPolygon"],
@@ -592,6 +601,7 @@ export const PlasmicHomePage = Object.assign(
     rectangle771: makeNodeComponent("rectangle771"),
     rectangle772: makeNodeComponent("rectangle772"),
     rectangle770: makeNodeComponent("rectangle770"),
+    rectangle768: makeNodeComponent("rectangle768"),
     _10SmallAave: makeNodeComponent("_10SmallAave"),
     _7XSmallTheGraph: makeNodeComponent("_7XSmallTheGraph"),
     _10SmallPolygon: makeNodeComponent("_10SmallPolygon"),
