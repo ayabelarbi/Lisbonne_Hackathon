@@ -1,6 +1,5 @@
 import React from "react";
 
-
 function PlasmicLogo() {
   return (
     <svg
@@ -63,15 +62,12 @@ function PlasmicLogo() {
   );
 }
 
-
 function Index() {
   return (
     <div style={{ width: "100%", padding: "100px", alignContent: "center" }}>
       <header>
         <PlasmicLogo />
-        <h1 style={{ margin: 0 }}>
-          Welcome to Plasmic!
-        </h1>
+        <h1 style={{ margin: 0 }}>Welcome to Plasmic!</h1>
         <h4>
           <a
             style={{ color: "blue" }}
@@ -82,8 +78,13 @@ function Index() {
             Learn Plasmic
           </a>
         </h4>
-        
-        <p><i>Note: Remember to remove this file if you introduce a Page component at the &#39;/&#39; path.</i></p>
+
+        <p>
+          <i>
+            Note: Remember to remove this file if you introduce a Page component
+            at the &#39;/&#39; path.
+          </i>
+        </p>
       </header>
     </div>
   );
